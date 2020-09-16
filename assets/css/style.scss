@@ -1,0 +1,153 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "sans-serif", Calibri, serif;
+  font-size: 14px;
+}
+
+.logo {
+  padding-left: 6.3rem;
+  padding-bottom: 0.6rem;
+}
+
+.nav {
+  background-color: #111519;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.navigation {
+  color: #fff;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 2.3rem 1.5rem 0rem;
+
+  & li {
+    padding: 0rem 1.3rem;
+    cursor: pointer;
+
+    &:hover {
+      color: #17b2ff;
+    }
+  }
+
+  li:nth-child(1) {
+    border-right: 1px solid #333;
+  }
+
+  li:nth-child(3) {
+    border-left: 1px solid #333;
+  }
+}
+
+.section1 {
+  background-image: url("../img/Esokia-section-1.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  .phone {
+    padding-top: 2.2rem;
+    padding-left: 15rem;
+  }
+
+  .legend {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding-right: 18rem;
+
+    .titre {
+      color: #fff;
+      font-size: 49px;
+      font-weight: bold;
+      padding-top: 4rem;
+    }
+
+    .description {
+      font-size: 16px;
+      font-weight: 540;
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+    }
+
+    .more-info {
+      display: inline-block;
+      font-weight: lighter;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      background-color: #000;
+      border: 1px solid transparent;
+      padding: 0.6rem 3rem;
+      font-size: 1.1rem;
+      width: fit-content;
+    }
+  }
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+
+  .section2-titre {
+    text-align: center;
+    padding: 3rem 0rem 0rem 3.5rem;
+    line-height: normal;
+    font-size: 49px;
+    color: #777
+  }
+
+  .services {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1.5rem;
+
+      .image-phone {
+        padding: 1.7rem 4.5rem;
+      }
+
+      span {
+        text-align: center;
+        font-size: 13.5px
+      }
+
+      .service-button {
+        display: flex;
+        justify-content: center;
+      }
+
+      .more-info {
+        display: inline;
+        font-weight: lighter;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        background-color: #17b2ff;
+        border: 1px solid transparent;
+        margin-top: 1rem;
+        padding: 0.2rem 1.7rem;
+        font-size: 1.1rem;
+        width: fit-content
+      }
+
+    }
+  }
+}
+
+
+
